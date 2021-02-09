@@ -1,12 +1,12 @@
 // // //Re-assigning values to a different variable
 
-// let a = ["a","b","c"];
-// let c = [...a];
-// console.log(c);
+let a = ["a","b","c"];
+let c = [...a];
+console.log(c);
 
-// let x = [1, 2, 3];
-// let b = Array.from(x);
-// console.log(b);
+let x = [1, 2, 3];
+let b = Array.from(x);
+console.log(b);
 
 
 
@@ -14,16 +14,16 @@
 
 // // //Assigning properties and values of an object to a variable throug "for of" loop;
 
-// let obj = {
-//     name: "osman",
-//     last: "kamara",
-//     age: 30,
-//     salary: "6 figures"
-// }
+let obj = {
+    name: "osman",
+    last: "kamara",
+    age: 30,
+    salary: "6 figures"
+}
 
-// for(const [name, value] of Object.entries(obj)) {
-//     console.log(name, value);
-// }
+for(const [name, value] of Object.entries(obj)) {
+    console.log(name, value);
+}
 
 // //Destructing 
 
