@@ -81,3 +81,13 @@ for(let letter of "mississippi") {
 console.log(frequency);
 
 
+//Using for/of loop with Set
+let text  = "Na na na na na na na Batman!";
+
+let wordSet = new Set(text.split(" "));
+let unique = [];
+for(let word of wordSet) {
+    unique.push(word);
+}
+
+console.table(unique);
