@@ -34,11 +34,11 @@ for(const [name, value] of Object.entries(obj)) {
 
 // //Destructing assignment using object of values
 
-// const { cos, tan, sin } = Math;
-// console.log(cos, tan, sin)
+const { cos, tan, sin } = Math;
+console.log(cos, tan, sin)
 
-// const{ cos: coSign, tan: tanTouch, sin: sinCommit } = Math;
-// console.log(coSign, tanTouch, sinCommit);
+const{ cos: coSign, tan: tanTouch, sin: sinCommit } = Math;
+console.log(coSign, tanTouch, sinCommit);
 
 // //Destructing array of objects
 
