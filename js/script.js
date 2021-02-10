@@ -42,14 +42,14 @@ for(const [name, value] of Object.entries(obj)) {
 
 // //Destructing array of objects
 
-// let people = [ 
+let people = [ 
 
-//     {name: 'osman', last: 'kamara'},
-//     {name: 'Aziz', last: 'ceesay'}
-// ]
+    {name: 'osman', last: 'kamara'},
+    {name: 'Aziz', last: 'ceesay'}
+]
 
-// let [{ name: firstName, last: lastName }, { name: firstNameSec, last:lastNameSec}] = people;
-// console.log(lastNameSec);
+let [{ name: firstName, last: lastName }, { name: firstNameSec, last:lastNameSec}] = people;
+console.log(lastNameSec);
 
 // //Destructing objects of array
 
