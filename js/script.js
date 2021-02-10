@@ -29,8 +29,8 @@ for(const [name, value] of Object.entries(obj)) {
 
 // //Destructing assignment using array of values
 
-// let [boy, girl] = ['guy', "nata"]
-// console.log(boy, girl);
+let [boy, girl] = ['guy', "nata"]
+console.log(boy, girl);
 
 // //Destructing assignment using object of values
 
