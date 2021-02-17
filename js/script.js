@@ -114,4 +114,10 @@ const factorias = function factoria(x) {
 
 let a = ['osmanisdope'];
 let b = [...'osmanisdope'];
-console.log(b);
+//console.log(b);
+
+//Remove duplicate array elements with Set
+
+let aa = ['Oz', 'is', 'dope', 'osman', 'Oz', 'dope', 'is']
+let bb = [...new Set(aa)];
+console.log(bb);
