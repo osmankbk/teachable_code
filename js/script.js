@@ -78,7 +78,7 @@ for(let letter of "mississippi") {
     }
 }
 
-console.log(frequency);
+//console.log(frequency);
 
 
 //Using for/of loop with Set
@@ -90,4 +90,28 @@ for(let word of wordSet) {
     unique.push(word);
 }
 
-console.table(unique);
+// console.table(unique);
+
+//Factorial throw a new error
+function factorial(x) {
+if(x < 0) throw new Error("can't use negative numbers");    
+
+let f;
+for(f = 1; x > 1; f *= x, x-- );
+    return f;
+}
+
+//Factorial with recursion
+const factorias = function factoria(x) {
+    if(x <= 1) return 1;
+   else return x * factoria(x - 1);
+
+}
+
+//console.log(factorias(10));
+
+//Changing strings to itarable array element
+
+let a = ['osmanisdope'];
+let b = [...'osmanisdope'];
+console.log(b);
