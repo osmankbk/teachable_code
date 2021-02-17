@@ -131,3 +131,7 @@ console.log(mapa);// map does not flattend array that are themselve arrays, it j
 let numbers2 = [1, 2, 4, 5, 6, 7, 8, [9, 10, [12, 14]]]
 let map = numbers2.flat(2);
 console.log(map);// flat flattens the array. On default it flattens the first layer, an argument is required for further flattening
+
+let numbers3 = [1, 2, 4, 5, 6, 7, 8, [9, 10, [12, 14]]];
+let map2 = numbers3.flatMap(x => x * 2);
+console.log(map2);// flatMap & flats array elements at the same time
