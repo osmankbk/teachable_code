@@ -14,16 +14,16 @@ let b = Array.from(x);
 
 // // // //Assigning properties and values of an object to a variable throug "for of" loop;
 
-// let obj = {
-//     name: "osman",
-//     last: "kamara",
-//     age: 30,
-//     salary: "6 figures"
-// }
+let obj = {
+    name: "osman",
+    last: "kamara",
+    age: 30,
+    salary: "6 figures"
+}
 
-// for(const [name, value] of Object.entries(obj)) {
-//     console.log(name, value);
-// }
+for(const [name, value] of Object.entries(obj)) {
+    console.log(name, value);
+}
 
 // // //Destructing 
 
