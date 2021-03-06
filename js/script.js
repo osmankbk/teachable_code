@@ -9,8 +9,8 @@ let b = Array.from(x);
 
 
 
-
-
+//Future learnings!
+//management, strategy, game theory, business philosophy, communication,
 
 // // // //Assigning properties and values of an object to a variable throug "for of" loop;
 
@@ -135,3 +135,5 @@ console.log(map);// flat flattens the array. On default it flattens the first la
 let numbers3 = [1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 14];
 let map2 = numbers3.flatMap(x => x * 2);
 console.log(map2);// flatMap & flats array elements at the same time
+
+//RegExp
