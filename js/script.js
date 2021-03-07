@@ -137,3 +137,4 @@ let map2 = numbers3.flatMap(x => x * 2);
 console.log(map2);// flatMap & flats array elements at the same time
 
 //RegExp
+//Parenthesis can be use to reference matched.
